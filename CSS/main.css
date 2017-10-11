@@ -1,0 +1,114 @@
+:root {
+
+}
+
+body {
+    font-family: 'Roboto',Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color : grey;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    height: 100vh;
+    width:100vw;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Oswald', Impact, Charcoal, sans-serif;
+    font-size: 7.5vw;
+    padding:0;
+    margin:0;
+}
+
+#title {
+    float:center;
+    color:rgb(255,69,0);
+    text-align: center;
+    padding:0;
+    margin-top:calc(30vh - 3.75em);
+}
+
+h2{
+    font-family: 'Roboto',Helvetica, Arial, sans-serif;
+    color:rgb(128, 128, 128);
+    font-size:2vw;
+    padding:0;
+    margin:0;
+}
+
+nav {
+    float:center;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+nav ul {
+    padding:0;
+    margin:0;
+    margin-top:2em;
+}
+nav li {
+    display: inline;
+    padding:0;
+    margin:7.5vw;
+}
+
+nav li a {
+    color:grey;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Roboto',Helvetica, Arial, sans-serif;
+}
+
+nav li a:hover{
+    color:rgb(255,69,0);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer p{
+    float:left;
+    padding:0;
+    margin:0;
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: 0;
+}
+
+footer ul {
+    float:right;
+    padding:0;
+    margin:0;
+}
+
+footer ul li {
+    display: inline;
+    padding:0;
+    margin:0;
+}
+
+footer img{
+    width:2em;
+    padding:0;
+    margin:0;
+}
+
+@media only screen and (max-width: 80vh) {
+   #title  {margin-top:0;}
+   h1 {font-size:15vw;}
+   h2{font-size:3vw;}
+   nav li {
+
+       display:block;
+        margin:1em;
+    }
+    nav ul {margin-top:20vh;
+    }
+}
+
