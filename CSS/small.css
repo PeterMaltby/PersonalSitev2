@@ -1,0 +1,21 @@
+@media only screen and (max-width:45em) {
+    h1{
+        font-size:3rem;
+        display:block;
+    }
+    h2{
+        font-size:1.5rem;
+        display:block;
+    }
+
+    #title {
+        text-align: center;
+        width:100%;
+    }
+    nav {
+        display: block;
+        float:center;
+        text-align: center;
+        width:100%;
+    }
+}
