@@ -1,6 +1,9 @@
 :root {
 }
 
+html{display:none;}
+.nojs { display: block;}
+
 body {
     font-family: 'Roboto',Helvetica, Arial, sans-serif;
     font-size: 1rem;
@@ -19,7 +22,7 @@ p {
 }
 
 a{
-    text-decoration: none;/*i know its dirty*/
+    text-decoration: none;
 }
 
 section {
