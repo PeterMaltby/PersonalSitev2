@@ -1,9 +1,10 @@
 :root {
 }
 
-
 html{display:none;}
 .nojs { display: block;}
+/*
+* {border: 1px solid black;}/*the fix all solution every webpage needs*/
 
 body {
     font-family: 'Roboto',Helvetica, Arial, sans-serif;
@@ -20,6 +21,7 @@ body {
 p {
     padding:0;
     margin:0;
+    margin-bottom:1em;
 }
 
 a{
@@ -96,6 +98,12 @@ h3 span{
     border-bottom:grey 0.4em solid;
     width:100%;
 }*/
+
+iframe {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
 
 nav {
     float:right;
