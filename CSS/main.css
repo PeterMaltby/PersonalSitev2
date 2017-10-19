@@ -3,7 +3,7 @@
 
 html{display:none;}
 .nojs { display: block;}
-
+/*
 * {border: 1px solid black;}/*the fix all solution every webpage needs*/
 
 body {
@@ -60,12 +60,17 @@ section {
 }
 
 .text .col-s {
-    flex-basis: 10em;
+    /*flex-basis: 15em;
     flex-grow:0;
     margin:1em;
-    max-width:20em;
+    max-width:20em;*/
+    width: 12em;
+    height: 7em;
+    margin:1em;
 }
 
+.freeText {margin:1em;
+}
 h1{
     font-family: 'Oswald', Impact, Charcoal, sans-serif;
     color:rgb(255,69,0);
