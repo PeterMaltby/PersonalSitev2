@@ -64,10 +64,65 @@ section {
     flex-grow:0;
     margin:1em;
     max-width:20em;*/
-    width: 12em;
-    height: 7em;
+    position: relative;
+    width: 15em;
+    height: 5em;
     margin:1em;
 }
+
+.overContainer {
+    position: relative;
+    width: 100%;
+    height:100%;
+    border-top:.2em solid rgb(255,69,0);
+}
+
+.underlay {
+    display: block;
+    width:100%;
+    height:auto;
+}
+
+.col-s h4 {
+    width:100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255,69,0);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .col-s:hover .overlay {
+    height: 100%;
+  }
+
+  .overlay .content {
+        white-space: nowrap; 
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+  }
+
+  .overlay .content img {
+      width:2em;
+      margin:1em;
+  }
+
+  .overlay .content h4 {
+      color:white;
+  }
 
 .freeText {margin:1em;
 }
