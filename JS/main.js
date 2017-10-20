@@ -1,5 +1,15 @@
+function isTouchDevice() {
+    return 'ontouchstart' in document.documentElement;
+}
+
 $(document).ready(function(){
     var de = 1000;
+
+    $(".touch").show();
+    if (isTouchDevice){
+        $(".touch").hide();
+    }
+
     $("html").css("display","block");
     $("#title,footer,nav li,.jsFlow").hide();
     $("#title").fadeIn(de);
@@ -27,3 +37,6 @@ $(document).ready(function(){
     }); 
 
 });
+
+
+
