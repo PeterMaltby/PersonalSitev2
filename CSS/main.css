@@ -1,8 +1,6 @@
 :root {
 }
 
-html{display:none;}
-.nojs { display: block;}
 /*
 * {border: 1px solid black;}/*the fix all solution every webpage needs*/
 
@@ -45,6 +43,7 @@ section {
     align-items: center;
     min-height: 70vh;
     width:100%;
+    margin-bottom:2em;
 }
 
 .col .flex-box {
@@ -64,10 +63,76 @@ section {
     flex-grow:0;
     margin:1em;
     max-width:20em;*/
-    width: 12em;
-    height: 7em;
+    position: relative;
+    width: 15em;
+    height: 5em;
     margin:1em;
 }
+
+.overContainer {
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+
+.underlay {
+    display: block;
+    width:100%;
+    height:auto;
+}
+
+.col-s h4 {
+    width:100%;
+    border-bottom:.2em solid rgb(255,69,0);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255,69,0);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .col-s:hover .overlay {
+    height: 100%;
+  }
+
+  .overlay .content {
+        white-space: nowrap; 
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+  }
+
+  .overlay .content img {
+      width:2em;
+      margin:1em;
+  }
+
+  .underlay .touch img{
+    width:2em;
+    margin:0;
+  }
+
+  .underlay .touch {
+      position: absolute;
+      bottom:0;
+      right:0;
+  }
+
+  .overlay .content h4 {
+      color:white;
+  }
 
 .freeText {margin:1em;
 }
@@ -103,7 +168,8 @@ h3 {
     color:rgb(128, 128, 128);
     font-size:1.5rem;
     margin:0;
-    padding:2em 0 0.5em 0;
+    padding:0;
+    padding-top:1em;
 }
 
 h4 {
@@ -190,4 +256,20 @@ footer img{
     width:2em;
     padding:0;
     margin:0;
+}
+
+iframe {
+    width: 10em;
+    min-width: 95%;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
 }
