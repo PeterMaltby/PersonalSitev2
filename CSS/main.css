@@ -263,7 +263,7 @@ iframe {
     min-width: 95%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1080px) {
     .container {
         width: 100%;
     }
