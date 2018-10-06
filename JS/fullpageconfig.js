@@ -2,13 +2,13 @@ var myFullpage = new fullpage('#fullpage', {
 	//Navigation
 	menu: '#menu',
 	lockAnchors: false,
-	anchors:['firstPage', 'secondPage'],
+	anchors:['home', 'about' , 'projects','contact'],
 	navigation: true,
 	navigationPosition: 'right',
-	navigationTooltips: ['firstSlide', 'secondSlide'],
+	navigationTooltips: ['home', 'about' , 'projects','contact'],
 	showActiveTooltip: false,
 	slidesNavigation: false,
-	slidesNavPosition: 'bottom',
+	slidesNavPosition: 'top',
 
 	//Scrolling
 	css3: true,
@@ -46,11 +46,11 @@ var myFullpage = new fullpage('#fullpage', {
 	//Design
 	controlArrows: true,
 	verticalCentered: true,
-	sectionsColor : ['#ccc', '#fff'],
+	sectionsColor : [],
 	paddingTop: '3em',
 	paddingBottom: '10px',
 	fixedElements: '#header, .footer',
-	responsiveWidth: 0,
+	responsiveWidth: 640,
 	responsiveHeight: 0,
 	responsiveSlides: false,
 	parallax: false,
