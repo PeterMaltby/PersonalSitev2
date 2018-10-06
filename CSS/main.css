@@ -197,6 +197,10 @@ h3 span{
     background-color: white;
 }
 
+#home {
+    background: white url("/Assets/background1.jpg") no-repeat center;
+    background-size: 100% auto;
+}
 
 iframe {
     margin: 0;
@@ -270,6 +274,14 @@ footer img{
 iframe {
     width: 10em;
     min-width: 95%;
+}
+
+.profile {
+
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+
 }
 
 @media screen and (max-width: 1080px) {
