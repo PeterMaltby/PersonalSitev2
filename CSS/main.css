@@ -271,13 +271,41 @@ footer img{
     margin:0;
 }
 
+
+.contact ul {
+    float: left;
+      position: relative;
+      left: 50%;
+    padding:0;
+    margin:0;
+}
+
+.contact ul li {
+    display: inline-block;
+    float: left;
+      position: relative;
+      left: -50%;
+    padding:.5em;
+    margin:0;
+}
+
+.contact img{
+    width:7em;
+    padding:0;
+    margin:0;
+}
+
+
+
+
 iframe {
     width: 10em;
     min-width: 95%;
 }
 
 .profile {
-
+    position: relative;
+    left: 40%;
     width: 20vw;
     height: 20vw;
     border-radius: 50%;
