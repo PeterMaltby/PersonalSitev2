@@ -2,7 +2,7 @@
 }
 
 /*
-* {border: 1px solid black;}/*the fix all solution every webpage needs*/
+*{border: 1px solid black;}/*the fix all solution every webpage needs*/
 
 body {
     font-family: 'Roboto',Helvetica, Arial, sans-serif;
@@ -26,9 +26,7 @@ a{
     text-decoration: none;/*i know its dirty*/
 }
 
-section {
-    width:100%;
-}
+
 .container {
     width:80%;
     margin:auto;
@@ -41,9 +39,9 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    min-height: 70vh;
+    /*min-height: 70vh;*/
     width:100%;
-    margin-bottom:2em;
+    /*margin-bottom:2em;*/
 }
 
 .col .flex-box {
@@ -190,11 +188,26 @@ h3 span{
     width:100%;
 }*/
 
+.header { 
+    position: fixed;
+    top:0;
+   width: 100%;
+    display:block;
+    z-index:9;
+    background-color: white;
+}
+
+#home {
+    background: white url("/Assets/background1.jpg") no-repeat center;
+    background-size: 100% auto;
+}
+
 iframe {
     margin: 0;
     padding: 0;
     float: left;
 }
+
 
 nav {
     float:right;
@@ -258,9 +271,45 @@ footer img{
     margin:0;
 }
 
+
+.contact ul {
+    float: left;
+      position: relative;
+      left: 50%;
+    padding:0;
+    margin:0;
+}
+
+.contact ul li {
+    display: inline-block;
+    float: left;
+      position: relative;
+      left: -50%;
+    padding:.5em;
+    margin:0;
+}
+
+.contact img{
+    width:7em;
+    padding:0;
+    margin:0;
+}
+
+
+
+
 iframe {
     width: 10em;
     min-width: 95%;
+}
+
+.profile {
+    position: relative;
+    left: 40%;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+
 }
 
 @media screen and (max-width: 1080px) {
