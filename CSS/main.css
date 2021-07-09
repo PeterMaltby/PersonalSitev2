@@ -4,6 +4,7 @@
 /*
 *{border: 1px solid black;}/*the fix all solution every webpage needs*/
 
+
 body {
     font-family: 'Roboto',Helvetica, Arial, sans-serif;
     font-size: 1rem;
@@ -28,7 +29,7 @@ a{
 
 
 .container {
-    width:80%;
+    width:90%;
     margin:auto;
     overflow:hidden;
 }
@@ -40,7 +41,7 @@ a{
     justify-content: space-around;
     align-items: center;
     /*min-height: 70vh;*/
-    width:100%;
+    width: 95%;
     /*margin-bottom:2em;*/
 }
 
@@ -198,7 +199,7 @@ h3 span{
 }
 
 #home {
-    background: white url("/Assets/background1.jpg") no-repeat center;
+    /*background: white url("/Assets/background2.jpg") no-repeat center;*/
     background-size: 100% auto;
 }
 
