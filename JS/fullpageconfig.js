@@ -2,10 +2,10 @@ var myFullpage = new fullpage('#fullpage', {
 	//Navigation
 	menu: '#menu',
 	lockAnchors: false,
-	anchors:[ 'about' , 'projects','contact'],
+	anchors:[ 'home' , 'projects'],
 	navigation: true,
 	navigationPosition: 'right',
-	navigationTooltips: ['about' , 'projects','contact'],
+	navigationTooltips: ['home' , 'projects'],
 	showActiveTooltip: false,
 	slidesNavigation: false,
 	slidesNavPosition: 'top',

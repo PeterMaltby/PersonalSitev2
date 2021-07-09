@@ -25,6 +25,7 @@ p {
 
 a{
     text-decoration: none;/*i know its dirty*/
+    color: rgb(255,69,0);
 }
 
 
@@ -275,23 +276,18 @@ footer img{
 
 .contact ul {
     float: left;
-      position: relative;
-      left: 50%;
     padding:0;
     margin:0;
 }
 
 .contact ul li {
-    display: inline-block;
-    float: left;
-      position: relative;
-      left: -50%;
-    padding:.5em;
+    display: inline;
+    padding:0.25em;
     margin:0;
 }
 
 .contact img{
-    width:7em;
+    width:2em;
     padding:0;
     margin:0;
 }
