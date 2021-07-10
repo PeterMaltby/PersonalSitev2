@@ -53,6 +53,7 @@ a{
 .text .col {
     flex-basis: 20em;
     flex-grow:1;
+    flex-shrink: 1;
     margin:1em;
     margin-left:1em;
     max-width:40em;
@@ -215,6 +216,7 @@ nav {
     float:right;
     text-align: right;
     padding:0;
+    padding-right: 2em;
     margin:0;
     margin-top:1.25em;
 }
@@ -302,9 +304,7 @@ iframe {
 
 .profile {
     position: relative;
-    left: 40%;
-    width: 20vw;
-    height: 20vw;
+    width: 100%;
     border-radius: 50%;
 
 }

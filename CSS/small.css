@@ -1,3 +1,47 @@
+
+
+@media only screen and (max-width:960px) {
+    #home {
+        background-size: auto 100%;
+        background-position: right;
+    }
+
+    .profile {
+        width: 100%;
+        height: auto;
+    }
+
+    .text .aside {
+        max-width: 15vw;
+    }
+
+    .flex-box {
+        align-items: flex-start;
+    }
+
+    nav {
+        padding-right: 0;
+    }
+
+    .contact ul {
+        float: left;
+        padding:0;
+        margin:0;
+    }
+    
+    .contact ul li {
+        display: inline;
+        padding:1em;
+        margin:0;
+    }
+    
+    .contact img{
+        width:10vw;
+        padding:0;
+        margin:0;
+    }
+}
+
 @media only screen and (max-width:640px) {
     h1{
         font-size:2rem;
@@ -18,26 +62,13 @@
         text-align: center;
         width:100%;
     }
-    .contact img{
-        width:25vw;
-        padding:0;
-        margin:0;
-    }
 
     .flex-box {
         width: 100%;
     }
-}
 
-@media only screen and (max-width:960px) {
-    #home {
-        background-size: auto 100%;
-        background-position: right;
+    .text .aside {
+        max-width: 33vw;
     }
 
-    .profile {
-        width: 75%;
-        height: auto;
-        left: 15%;
-    }
 }
