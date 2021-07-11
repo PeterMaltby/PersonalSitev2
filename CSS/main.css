@@ -1,7 +1,7 @@
 :root {
 }
 
-/*
+
 *{border: 1px solid black;}/*the fix all solution every webpage needs*/
 
 
@@ -65,9 +65,10 @@ a{
     margin:1em;
     max-width:20em;*/
     position: relative;
-    width: 15em;
-    height: 5em;
-    margin:1em;
+    width: 33vw;
+    min-height: 5em;
+    height:auto;
+    margin:1.5em;
 }
 
 .overContainer {
