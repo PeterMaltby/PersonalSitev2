@@ -299,6 +299,17 @@ footer img{
     margin:0;
 }
 
+.skills {
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+.skills p{
+    margin:0;
+    font-style: italic;
+}
+
 
 .contact ul {
     float: left;
