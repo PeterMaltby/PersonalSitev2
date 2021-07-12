@@ -71,4 +71,8 @@
         max-width: 33vw;
     }
 
+    .text .col-s {
+        width:100%;
+    }
+    
 }

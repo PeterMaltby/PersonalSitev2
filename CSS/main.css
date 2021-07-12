@@ -1,7 +1,7 @@
 :root {
 }
 
-
+/*
 *{border: 1px solid black;}/*the fix all solution every webpage needs*/
 
 
@@ -46,6 +46,10 @@ a{
     /*margin-bottom:2em;*/
 }
 
+.project .flex-box {
+    align-items: stretch;
+}
+
 .col .flex-box {
     min-height:0;
 }
@@ -59,6 +63,8 @@ a{
     max-width:40em;
 }
 
+
+
 .text .col-s {
     /*flex-basis: 15em;
     flex-grow:0;
@@ -66,6 +72,15 @@ a{
     max-width:20em;*/
     position: relative;
     width: 33vw;
+    flex-grow:1;
+    min-height: 5em;
+    height:auto;
+    margin:1.5em;
+}
+
+.text .col-b {
+    position: relative;
+    width: 100%;
     min-height: 5em;
     height:auto;
     margin:1.5em;
@@ -81,6 +96,7 @@ a{
     display: block;
     width:100%;
     height:auto;
+    min-height: 5em;
 }
 
 .col-s h4 {
