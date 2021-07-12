@@ -3,66 +3,69 @@
 <html lang="en" class="nojs">
     <head>
         <meta charset="utf-8" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109843476-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-109843476-1');
-        </script>
-
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Peter Maltby | 403</title>
         <meta name="author" content="Peter Maltby" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <script>
             document.documentElement.className = "js";
         </script>
 
+        <link rel="stylesheet" href="/CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="/CSS/fullpage.css" />
         <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="/CSS/main.css"/>
-        <link rel="stylesheet" href="/CSS/small.css"/>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="/JS/main.js"></script>
+        <link rel="stylesheet" href="/CSS/main.css" />
+        <link rel="stylesheet" href="/CSS/small.css" />
     </head>
+
     <body>
-        <div class="container" class="header">
-        <div id="title">
-            <a href="/index.html">
-            <h1>Peter Maltby</h1>
-            <h2>Digital Portfolio</h2>
-            </a>
-        </div>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-        <nav>
-            <ul>
-                <li><a href="/qualifications.html">Qualifications</a></li>
-                <li><a href="/projects/">Projects</a></li>
-                <li><a href="/about.html">About</a></li>
-            </ul>
-        </nav>
-        </div>
-
-        <section class="text">
+        <div class="header">
             <div class="container">
-                <div class="flex-box">
-                    <div class="col jsFlow">
-                        <h3><span>403</span> Requested Page is forbidden.</h3>
-                        <p>The page or folder you are <i>attempting</i> to access is off limits. :)</p>
-                    </div>
+                <div id="title">
+                        <h1>Peter Maltby</h1>
+                        <h2>Computer Science Graduate</h2>
                 </div>
             </div>
-        </section>
+        </div>
+        <div id="fullpage">
+            <section class="section text">
+                <div class="container">
+                    <div class="flex-box">
+                        <div class="col jsFlow">
+                            <h3><span>403</span> Requested Page is forbidden.</h3>
+                            <p>The page or folder you are <i>attempting</i> to access is off limits. :)</p>
+                            <p>Click <a href="index.html">here</a>, to return to the main page.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
 
         <footer>
-            <p>Copyright &copy; 11/10/2017</p>
-            <ul>
-                <li><a href="https://github.com/McDonalds-Happymeal"><img src="Assets/github.png" /></a></li>
-                <li><a href="/contact.html"><img src="Assets/email.png" /></a></li>
-            </ul>
+            <p>created using <a href="https://alvarotrigo.com/fullPage">fullpage.js</a></p>
         </footer>
+    
+    
+        <!-- JS and script here -->
+        <script src="/JS/vendor/modernizr-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script>
+            window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+        </script>
+    
+        <script type="text/javascript" src="\JS\vendor\scrolloverflow.min.js"></script>
+        <script type="text/javascript" src="JS/vendor/fullpage.js"></script>
+    
+    
+        <script src="/js/fullpageconfig.js"></script>
+    
+        <script src="js/main.js"></script>
     </body>
 </html>
