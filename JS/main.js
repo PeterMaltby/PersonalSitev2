@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 function copyEmail() {
     var copyText = document.createElement("textarea");
-    copyText.value = "MY EMAIL!";
+    copyText.value = "enquire.petermaltby+web@gmail.com";
     copyText.setAttribute("readonly",'');
     copyText.style.position = "absolute";
     copyText.style.position = "-9999px";
